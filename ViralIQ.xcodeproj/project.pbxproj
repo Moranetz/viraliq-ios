@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A8AEFA2EBF6A906756404F /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63871FBA243EBA14FC8F90AF /* ProfileTab.swift */; };
+		2A6767553774A846F7816DCF /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805D1912C6FD05EE3BCF1F2C /* HomeTab.swift */; };
+		4624B40FB726DFFB1C66BF7A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A801857C62D217E7136B0A /* QuestionView.swift */; };
+		50E8C44571008684916036C7 /* QuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7309FD649F4C420F556ABE7 /* QuestionsData.swift */; };
+		5DB05C45962DEC770A82E1D5 /* ReferenceTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9FAA92A830B39C703DC19 /* ReferenceTab.swift */; };
+		7601C4AE25EBA744F25B5DF4 /* LessonComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C206EECA3AD72A355356F /* LessonComplete.swift */; };
+		8A91093ADC3588F168AACB21 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88C41E08365987D55BA446 /* Models.swift */; };
+		8CE27B77AFF811404D002612 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D10BE8AA82CE034A3345B9 /* Theme.swift */; };
+		92F798C53F65CFB45F8409D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EDEA064DCBE24E6540025E /* Assets.xcassets */; };
+		9714BC7ECB4098E79FEB14CE /* ViralIQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CCBEC494F45E786C038C80 /* ViralIQApp.swift */; };
+		F4C415EA8E057AA0B0775583 /* LessonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4B8E5F0615A7350F2913 /* LessonScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E88C41E08365987D55BA446 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		63871FBA243EBA14FC8F90AF /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
+		656C206EECA3AD72A355356F /* LessonComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonComplete.swift; sourceTree = "<group>"; };
+		72D10BE8AA82CE034A3345B9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		75D9FAA92A830B39C703DC19 /* ReferenceTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTab.swift; sourceTree = "<group>"; };
+		805D1912C6FD05EE3BCF1F2C /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		82A801857C62D217E7136B0A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		90522AEA91F842BA49A489F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93EDEA064DCBE24E6540025E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98CCBEC494F45E786C038C80 /* ViralIQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViralIQApp.swift; sourceTree = "<group>"; };
+		B2A01C5A846DCA27871D33BE /* ViralIQ.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ViralIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21B4B8E5F0615A7350F2913 /* LessonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonScreen.swift; sourceTree = "<group>"; };
+		F7309FD649F4C420F556ABE7 /* QuestionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		28B25F9907F1B53000C26BE0 /* ViralIQ */ = {
+			isa = PBXGroup;
+			children = (
+				93EDEA064DCBE24E6540025E /* Assets.xcassets */,
+				805D1912C6FD05EE3BCF1F2C /* HomeTab.swift */,
+				90522AEA91F842BA49A489F7 /* Info.plist */,
+				656C206EECA3AD72A355356F /* LessonComplete.swift */,
+				E21B4B8E5F0615A7350F2913 /* LessonScreen.swift */,
+				4E88C41E08365987D55BA446 /* Models.swift */,
+				63871FBA243EBA14FC8F90AF /* ProfileTab.swift */,
+				F7309FD649F4C420F556ABE7 /* QuestionsData.swift */,
+				82A801857C62D217E7136B0A /* QuestionView.swift */,
+				75D9FAA92A830B39C703DC19 /* ReferenceTab.swift */,
+				72D10BE8AA82CE034A3345B9 /* Theme.swift */,
+				98CCBEC494F45E786C038C80 /* ViralIQApp.swift */,
+			);
+			path = ViralIQ;
+			sourceTree = "<group>";
+		};
+		5A16D0A8B09320E5C5860BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2A01C5A846DCA27871D33BE /* ViralIQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC154A8852C9233B2105175B = {
+			isa = PBXGroup;
+			children = (
+				28B25F9907F1B53000C26BE0 /* ViralIQ */,
+				5A16D0A8B09320E5C5860BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F841C75D49C04368E3DE863 /* ViralIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1731AD84E39B979D86A7A5F0 /* Build configuration list for PBXNativeTarget "ViralIQ" */;
+			buildPhases = (
+				D99F7B9BEF3F020B856CAAAA /* Sources */,
+				88B008212240BCEC2CC1C60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViralIQ;
+			packageProductDependencies = (
+			);
+			productName = ViralIQ;
+			productReference = B2A01C5A846DCA27871D33BE /* ViralIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DF325B79E8CD5619FF7FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8F841C75D49C04368E3DE863 = {
+						DevelopmentTeam = Q242KWQD56;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 59012C44D184B11963A13EFA /* Build configuration list for PBXProject "ViralIQ" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CC154A8852C9233B2105175B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A16D0A8B09320E5C5860BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F841C75D49C04368E3DE863 /* ViralIQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B008212240BCEC2CC1C60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F798C53F65CFB45F8409D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99F7B9BEF3F020B856CAAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6767553774A846F7816DCF /* HomeTab.swift in Sources */,
+				7601C4AE25EBA744F25B5DF4 /* LessonComplete.swift in Sources */,
+				F4C415EA8E057AA0B0775583 /* LessonScreen.swift in Sources */,
+				8A91093ADC3588F168AACB21 /* Models.swift in Sources */,
+				09A8AEFA2EBF6A906756404F /* ProfileTab.swift in Sources */,
+				4624B40FB726DFFB1C66BF7A /* QuestionView.swift in Sources */,
+				50E8C44571008684916036C7 /* QuestionsData.swift in Sources */,
+				5DB05C45962DEC770A82E1D5 /* ReferenceTab.swift in Sources */,
+				8CE27B77AFF811404D002612 /* Theme.swift in Sources */,
+				9714BC7ECB4098E79FEB14CE /* ViralIQApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		182B59101CBAFF8B8069AB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ViralIQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melmarion.viraliq;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308746616F0C436BAD1FE574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q242KWQD56;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		43B3EBD0875228D0FE9A5A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ViralIQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melmarion.viraliq;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB7FC0E33CEC46FAA38DEC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q242KWQD56;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1731AD84E39B979D86A7A5F0 /* Build configuration list for PBXNativeTarget "ViralIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182B59101CBAFF8B8069AB14 /* Debug */,
+				43B3EBD0875228D0FE9A5A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59012C44D184B11963A13EFA /* Build configuration list for PBXProject "ViralIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308746616F0C436BAD1FE574 /* Debug */,
+				FB7FC0E33CEC46FAA38DEC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79DF325B79E8CD5619FF7FC8 /* Project object */;
+}

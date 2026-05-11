@@ -1,0 +1,23 @@
+ViralIQ is a deliberate-practice training app for the seven core hook-writing skills that decide whether someone scrolls past your content or stops to read it: Hook Assembly, Swipe Instinct, Script Surgery, Rank & Stack, A/B Instinct, Roast Lab, and Fix It.
+
+Most content training tells you what worked. ViralIQ teaches you how to MAKE it work — the underlying mechanisms behind why a hook stops the thumb. The skills compound. Spotting a weak word in someone else's script (Script Surgery) is the same mental move as catching it in your own (Fix It). Recognizing why a hook outperforms its variant (A/B Instinct) is the same mental move as building one from fragments (Hook Assembly).
+
+The instrument:
+• 7 skills, each unlocked by mastering the prior
+• 8 exercises per skill — 56 total
+• Seven distinct interaction types:
+  – Hook Assembly: arrange fragments into the strongest opening
+  – Swipe Instinct: 2-second viral / not-viral decision under time pressure
+  – Script Surgery: tap the weak word that kills the hook
+  – Rank & Stack: order four hooks fire-to-flop
+  – A/B Instinct: pick the winner when both look reasonable
+  – Roast Lab: rate content fire / mid / death before the expert score is revealed
+  – Fix It: tap the weak phrase, then pick the strongest replacement
+• Heart system, combo stacking, XP economy, flames for perfect lessons
+• Each correct answer explains WHY — the specific mechanism that makes the hook work
+
+The skills carry. Same epistemic discipline applies to LinkedIn posts, cold-outbound subject lines, sales-pitch openers, YouTube thumbnails, TikTok hooks, podcast titles, and every interface element where you have one second to earn the next.
+
+Privacy: no analytics, no advertising, no third-party SDKs. The app runs entirely on your device. No account, no cloud sync, no data leaves the phone.
+
+This is not a content-marketing app and not a chatbot. It is the practice instrument for the operators who want the mechanism, not just the templates.

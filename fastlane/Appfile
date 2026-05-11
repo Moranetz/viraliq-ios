@@ -1,0 +1,4 @@
+app_identifier("com.melmarion.viraliq")
+team_id("Q242KWQD56")
+itc_team_id(ENV["ITC_TEAM_ID"])
+apple_id(ENV["APPLE_ID"])
