@@ -2,7 +2,14 @@
 
 > A deliberate-practice training app for the seven core hook-writing skills that decide whether someone scrolls past your content or stops. 7 skills × 7 distinct interaction types × 8 questions = 56 exercises that teach mechanism, not template recall.
 
-**Status:** iOS 17.0+ · SwiftUI · sim-validated · App Store submission pending Marion's ASC click. Third of three persuasion-training games shipped this quarter (after Reality Distortion + MindCraft).
+**Status:** iOS 17.0+ · SwiftUI · sim-validated · App Store submission in flight. Third of three persuasion-training games built this quarter (after Reality Distortion + MindCraft).
+
+<p align="center">
+  <img src="fastlane/screenshots/en-US/1-home-fresh.png" width="22%" alt="Home — skill tree">
+  <img src="fastlane/screenshots/en-US/3-lesson-assemble.png" width="22%" alt="Hook Assembly question">
+  <img src="fastlane/screenshots/en-US/5-reference.png" width="22%" alt="Skill reference library">
+  <img src="fastlane/screenshots/en-US/6-profile.png" width="22%" alt="Profile stats">
+</p>
 
 ---
 
