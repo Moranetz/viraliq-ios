@@ -2,6 +2,16 @@ import SwiftUI
 
 @main
 struct ViralIQApp: App {
+    init() {
+        #if DEBUG
+        if ProcessInfo.processInfo.environment["RT_SELFTEST"] != nil {
+            MainActor.assumeIsolated {
+                NSLog("ROUNDTRIP_RESULT: %@", GameState.roundTripSelfTest())
+            }
+        }
+        #endif
+    }
+
     @StateObject private var game: GameState = {
         let g = GameState()
         let args = ProcessInfo.processInfo.arguments
