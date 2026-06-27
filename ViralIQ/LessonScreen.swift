@@ -115,7 +115,14 @@ struct LessonScreen: View {
                 }
             }
         }
-        .onAppear { hearts = game.hearts }
+        .onAppear {
+            // Refill depleted hearts when starting a lesson, matching the
+            // "Hearts refill on the next lesson" promise on the out-of-hearts
+            // screen. Without this, dying leaves game.hearts at 0 and the next
+            // lesson starts dead-on-arrival (instant death on the first miss).
+            if game.hearts <= 0 { game.hearts = 5 }
+            hearts = game.hearts
+        }
     }
 
     private func handleAnswer(isCorrect: Bool) {
