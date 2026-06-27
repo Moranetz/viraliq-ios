@@ -110,6 +110,28 @@ final class GameState: ObservableObject {
         }
     }
 
+    #if DEBUG
+    /// Drives the real save()->load() path and asserts progress survives a cold
+    /// round-trip. Run via the RT_SELFTEST launch env var.
+    static func roundTripSelfTest() -> String {
+        UserDefaults.standard.removeObject(forKey: Self.saveKey)
+        let a = GameState()
+        a.xp = 99; a.streak = 7; a.flames = 12; a.lessonsCompleted = 3
+        if !a.skills.isEmpty { a.skills[0].status = .done; a.skills[0].progress = 1.0 }
+        a.save()
+        let b = GameState()
+        var f: [String] = []
+        if b.xp != 99 { f.append("xp") }
+        if b.streak != 7 { f.append("streak") }
+        if b.flames != 12 { f.append("flames") }
+        if b.lessonsCompleted != 3 { f.append("lessons") }
+        if b.skills.first?.status != .done { f.append("skillStatus") }
+        if b.skills.first?.progress != 1.0 { f.append("skillProgress") }
+        UserDefaults.standard.removeObject(forKey: Self.saveKey)
+        return f.isEmpty ? "PASS" : "FAIL: \(f.joined(separator: ","))"
+    }
+    #endif
+
     var mastered: Int { skills.filter { $0.status == .done }.count }
 
     func completeLesson(skillId: Int, earnedXP: Int, wasPerfect: Bool) {
