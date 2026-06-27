@@ -31,7 +31,7 @@ enum Question: Identifiable, Hashable {
 }
 
 struct Skill: Identifiable, Hashable {
-    enum Status: Hashable { case locked, current, done }
+    enum Status: String, Codable, Hashable { case locked, current, done }
 
     let id: Int
     let name: String
@@ -68,12 +68,46 @@ final class GameState: ObservableObject {
     @Published var lessonsCompleted: Int = 0
     @Published var skills: [Skill] = []
 
+    private static let saveKey = "viraliq.gamestate.v1"
+
+    private struct SkillSnap: Codable { var status: String; var progress: Double }
+    private struct Snapshot: Codable {
+        var xp: Int; var hearts: Int; var streak: Int; var flames: Int; var lessonsCompleted: Int
+        var skills: [Int: SkillSnap]
+    }
+
     init() {
         var initial = QuestionsData.skills
         if let firstIdx = initial.indices.first {
             initial[firstIdx].status = .current
         }
         self.skills = initial
+        load()
+    }
+
+    /// Restore persisted progress (skill definitions stay code-sourced; only
+    /// mutable status/progress + the counters are restored by id).
+    private func load() {
+        guard let data = UserDefaults.standard.data(forKey: Self.saveKey),
+              let snap = try? JSONDecoder().decode(Snapshot.self, from: data) else { return }
+        xp = snap.xp; hearts = snap.hearts; streak = snap.streak
+        flames = snap.flames; lessonsCompleted = snap.lessonsCompleted
+        for i in skills.indices {
+            if let s = snap.skills[skills[i].id] {
+                if let st = Skill.Status(rawValue: s.status) { skills[i].status = st }
+                skills[i].progress = s.progress
+            }
+        }
+    }
+
+    func save() {
+        var skillSnaps: [Int: SkillSnap] = [:]
+        for s in skills { skillSnaps[s.id] = SkillSnap(status: s.status.rawValue, progress: s.progress) }
+        let snap = Snapshot(xp: xp, hearts: hearts, streak: streak, flames: flames,
+                            lessonsCompleted: lessonsCompleted, skills: skillSnaps)
+        if let data = try? JSONEncoder().encode(snap) {
+            UserDefaults.standard.set(data, forKey: Self.saveKey)
+        }
     }
 
     var mastered: Int { skills.filter { $0.status == .done }.count }
@@ -91,10 +125,12 @@ final class GameState: ObservableObject {
                 skills[idx + 1].status = .current
             }
         }
+        save()
     }
 
     func useHeart() {
         hearts = max(0, hearts - 1)
+        save()
     }
 
     static func earnedXP(correctCount: Int, total: Int, maxCombo: Int) -> Int {
