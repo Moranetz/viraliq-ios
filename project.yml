@@ -39,3 +39,23 @@ targets:
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         TARGETED_DEVICE_FAMILY: "1,2"
         GENERATE_INFOPLIST_FILE: NO
+  ViralIQTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - ViralIQTests
+    dependencies:
+      - target: ViralIQ
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.melmarion.viraliq.tests
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGNING_ALLOWED: NO
+schemes:
+  ViralIQ:
+    build:
+      targets:
+        ViralIQ: all
+    test:
+      targets:
+        - ViralIQTests
